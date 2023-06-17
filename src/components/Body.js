@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <div className='w-full border p-3'>
       {/* <Filter /> */}
-      <div className='flex'>
+      <div className='flex flex-wrap'>
         <List/>
       </div>
     </div>
