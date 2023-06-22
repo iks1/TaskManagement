@@ -1,7 +1,7 @@
 import React from "react";
 import messages from "../message.svg"
 import profile from "../profile.svg"
-import task from "../task.svg"
+import task from "../../icons/task.svg"
 import home from "../home.svg"
 import settings from "../settings.svg"
 
