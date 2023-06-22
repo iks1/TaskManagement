@@ -1,11 +1,13 @@
 import React from 'react'
 import foldericon from './file.svg'
 import messageicon from './message.svg'
+import { Draggable} from 'react-beautiful-dnd'
 
-
-const Card = ({ card }) => {
+const Card = ({ card,index }) => {
+  console.log(index)
   return (
-    <div className='bg-white mt-2 w-[314px] h-auto flex flex-col justify-evenly rounded-2xl p-[16px]'>
+    
+      <div className='bg-white mt-2 w-[314px] h-auto flex flex-col justify-evenly rounded-2xl p-[16px] cursor-pointer'>
       <div>
         <div style={{
           backgroundColor: card.priority === 'Low' ? '#DFA874' : card.priority === 'High' ? '#D8727D' : '#83C29D',
@@ -24,6 +26,7 @@ const Card = ({ card }) => {
         <Filebox file={card}/>
       </div>
     </div>
+    
   )
 }
 
