@@ -9,13 +9,13 @@ import store from './store'
 function App() {
   return (
     <Provider store={store}>
-    <div className="App">
-     <Header />
-     <div className='flex'>
-       <Sidebar />
-       <Body />
-     </div>
-    </div>
+      <div className="App">
+        <Header />
+        <div className='flex'>
+          <Sidebar />
+          <Body />
+        </div>
+      </div>
     </Provider>
   );
 }
