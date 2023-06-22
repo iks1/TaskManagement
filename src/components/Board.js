@@ -14,7 +14,7 @@ const List = () => {
         <>
             {boards.length > 0 && boards.map((board) => (
                 <div className='p-3 w-1/3'>
-                    <div className='p-3 bg-gray-200 '>
+                    <div className='p-3 bg-[#F5F5F5] rounded-2xl flex flex-col items-center'>
                     <div key={board.id}>{board.title}</div>
                     {board.cards.map((card) => ( 
                         <Card key={card.topics} card={card} />
