@@ -1,6 +1,5 @@
 import React from "react"
 import Card from "./Card"
-
 import { todo, doing, done } from './BoardData'
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd"
 
