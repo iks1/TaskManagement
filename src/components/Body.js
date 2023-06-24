@@ -1,7 +1,7 @@
 import React from 'react'
 import Board from './Board'
 import linkicon from '../icons/linkicon.svg'
-import arrow from '../icons/arrow-square-up.svg'
+import arrow from '../icons/arrow.svg'
 import calender from '../icons/calendar.svg'
 
 const Body = () => {
