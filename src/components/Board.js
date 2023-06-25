@@ -14,13 +14,13 @@ const List = () => {
     return (
         <DragDropContext>
             {boards.length > 0 && boards.map((board,index) => (
-                <div className='p-3 w-1/3 overflow-scroll'>
+                <div className='p-3 w-1/3 overflow-scroll flex-wrap'>
                     <Droppable droppableId={board.id}>
                         {provided => (
                             
                         <div  ref={provided.innerRef}
                         {...provided.droppableProps}
-                        className='p-3 bg-[#F5F5F5] rounded-2xl flex flex-col items-center'>
+                        className='p-3 bg-[#F5F5F5] rounded-2xl flex flex-col items-center  overflow-scroll'>
                             <Head board={board} />
                             {board.cards.map((card,index) => (
                                 <Draggable key={card.id} draggableId={card.id} index={index}>

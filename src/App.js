@@ -9,20 +9,12 @@ import store from './store'
 function App() {
   return (
     <Provider store={store}>
-      {/* <div className="App">
-        <Header />
-        <div className='flex'>
-          <Sidebar />
+      <div className='flex flex-row App overflow-scroll'>
+        <Sidebar />
+        <div className='flex flex-col w-full'>
+          <Header />
           <Body />
         </div>
-      </div> */}
-
-      <div className='flex flex-row App overflow-scroll'>
-         <Sidebar/>
-         <div className='flex flex-col w-full'>
-            <Header/>
-            <Body/>
-         </div>
       </div>
     </Provider>
   );
