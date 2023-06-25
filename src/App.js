@@ -17,7 +17,7 @@ function App() {
         </div>
       </div> */}
 
-      <div className='flex flex-row App'>
+      <div className='flex flex-row App overflow-scroll'>
          <Sidebar/>
          <div className='flex flex-col w-full'>
             <Header/>

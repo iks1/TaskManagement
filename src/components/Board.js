@@ -14,7 +14,7 @@ const List = () => {
     return (
         <DragDropContext>
             {boards.length > 0 && boards.map((board,index) => (
-                <div className='p-3 w-1/3'>
+                <div className='p-3 w-1/3 overflow-scroll'>
                     <Droppable droppableId={board.id}>
                         {provided => (
                             
