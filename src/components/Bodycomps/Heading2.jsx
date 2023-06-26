@@ -19,7 +19,7 @@ const Heading2=()=>{
         <div className='flex flex-row items-center m-1 lg:basis-[20%] justify-between min-[320px]:w-auto'>
            <Helper capsImg={share} caption='Share'/>
            <img  src={line} alt='line'/>
-           <img  src={twoequals} className='m-2 max-sm:h-[4.9vh]' alt='twoequals'/>
+           <img  src={twoequals} className='m-2 max-sm:h-[37px]' alt='twoequals'/>
            <img  src={fourdots} alt='fourdots'/>
         </div>
       </div>
