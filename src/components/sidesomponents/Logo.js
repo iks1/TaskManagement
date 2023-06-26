@@ -5,7 +5,7 @@ import arrow from "../../icons/logoarrow.svg"
 
 const Logo = ({ handleclick, showTitle }) => {
     return (
-        <div className="flex flex-row items-center justify-end h-[10vh] w-full ">
+        <div className="flex flex-row items-center justify-between h-[10vh] w-full ">
             {
                 showTitle &&
                 <div className="flex flex-row items-center m-2 ">

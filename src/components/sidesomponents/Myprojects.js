@@ -17,7 +17,7 @@ const Myprojects = () => {
             </div>
             <div className="flex flex-col w-full my-[8px] ">
                 {projects.map((project) => (
-                    <div className='flex items-center justify-start my-[8px]  hover:bg-gray-200 rounded-md cursor-pointer  hover:text-black text-[#787486]'>
+                    <div className='flex items-center justify-start  hover:bg-gray-200 rounded-md cursor-pointer  hover:text-black text-[#787486] h-10'>
                         <div className='w-2 h-2 rounded-full mx-[7px] ' style={{ backgroundColor: project.color }}></div>
                         <p className="text-sm font-medium  mx-[7px]">{project.name}</p>
                     </div>

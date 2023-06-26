@@ -11,15 +11,15 @@ import fourdots from '../../icons/fourdots.svg'
 
 const Heading2=()=>{
     return(
-      <div className='flex justify-between p-[14px]'>
+      <div className='flex lg:justify-between lg:p-[14px] min-[320px]:p-[12px] w-full min-[320px]:justify-around'>
         <div className='flex flex-row items-center'>
            <Helper capsImg={filter} caption='Filter' arrow={arrowdown}/>
            <Helper capsImg={calander} caption='Today' arrow={arrowdown}/>
         </div>
-        <div className='flex flex-row items-center m-1 basis-[20%] justify-between'>
+        <div className='flex flex-row items-center m-1 lg:basis-[20%] justify-between min-[320px]:w-auto'>
            <Helper capsImg={share} caption='Share'/>
            <img  src={line} alt='line'/>
-           <img  src={twoequals} alt='twoequals'/>
+           <img  src={twoequals} className='m-2' alt='twoequals'/>
            <img  src={fourdots} alt='fourdots'/>
         </div>
       </div>
