@@ -7,7 +7,7 @@ import heading1 from '../../icons/heading1.svg'
 
 const Heading1=()=>{
     return(
-      <div className='flex flex-row justify-between lg:w-full sm:w-[50%]  lg:p-[14px] min-[320px]:p-[12px]'>
+      <div className='flex flex-row justify-between lg:w-full  lg:p-[14px] min-[320px]:p-[12px]'>
          <div className='flex flex-row items-center ' >
             <p className='font-bold lg:text-[46px] min-[320px]:text-[20px]'>Mobile App</p>
             <img className='sm:m-[5px] lg:m-[10px] lg:w-[30px] lg:h-[30px] sm:h-[2px]' src={arrow} alt="" />
