@@ -14,7 +14,7 @@ const Icons = () => {
                 <img className='w-[3vh] m-1' src={notification} alt='notification' />
             </div>
             <div className='flex lg:flex-row  items-center basis-[60%] lg:justify-between min-[320px]:m-3 '>
-                <div className='lg:flex flex-col items-center min-[320px]:hidden '>
+                <div className='lg:flex flex-col items-center xs:hidden'>
                     <h3 className='text-[#0D062D] text-[16px]'>Anima Agrawal</h3>
                     <p className='text-[14px] text-[#787486]'>UP,India</p>
                 </div>
