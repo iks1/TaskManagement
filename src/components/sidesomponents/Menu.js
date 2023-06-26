@@ -16,9 +16,9 @@ const Menu = () => {
     return (
         <div>
             {menu.map((item, index) => (
-                <div key={index} className='flex items-center p-2 space-x-2 hover:bg-gray-200 rounded-md cursor-pointer ]'>
+                <div key={index} className={`flex items-center p-2 space-x-2 hover:bg-gray-200 rounded-md cursor-pointer hover:text-black text-[#787486]`}>
                     <img src={item.icon} alt={item.name} className='w-6 h-6' />
-                    <p className="text-sm font-medium">{item.name}</p>
+                    <p className="text-sm font-medium ">{item.name}</p>
                 </div>
             ))}
         </div>

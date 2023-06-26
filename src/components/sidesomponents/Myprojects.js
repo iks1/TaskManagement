@@ -10,16 +10,16 @@ const projects = [
 
 const Myprojects = () => {
     return (
-        <div>
-            <div className="flex flex-row align-middle p-2">
-                <h3 className="text-sm font-medium ">My Projects</h3>
-                {/* <h3 className="text-sm font-medium mr-0">+</h3> */}
+        <div className="flex flex-col p-2">
+            <div className="flex flex-row items-center w-full justify-between">
+                <h3 className="text-sm font-bold text-[12px] text-[#787486] ">My Projects</h3>
+                <h3 className="text-sm font-medium mr-0 text-[#787486]">+</h3>
             </div>
-            <div>
+            <div className="flex flex-col w-full my-[8px] ">
                 {projects.map((project) => (
-                    <div className='flex items-center p-2 space-x-2 hover:bg-gray-200 rounded-md cursor-pointer ]'>
-                        <div className='w-2 h-2 rounded-full' style={{ backgroundColor: project.color }}></div>
-                        <p className="text-sm font-medium">{project.name}</p>
+                    <div className='flex items-center justify-start my-[8px]  hover:bg-gray-200 rounded-md cursor-pointer  hover:text-black text-[#787486]'>
+                        <div className='w-2 h-2 rounded-full mx-[7px] ' style={{ backgroundColor: project.color }}></div>
+                        <p className="text-sm font-medium  mx-[7px]">{project.name}</p>
                     </div>
                 ))}
             </div>

@@ -3,6 +3,7 @@ import foldericon from './file.svg'
 import messageicon from './message.svg'
 import { Draggable } from 'react-beautiful-dnd'
 import doingfirst from '../icons/doingfirst.svg'
+import cardpic from '../icons/cardpic.svg'
 
 const Card = ({ card }) => {
   return (
@@ -26,7 +27,7 @@ const Card = ({ card }) => {
       </div>
       <div className='flex flex-row items-center'>
         <div className='flex justify-start basis-[45%]'>
-           <img className=' rounded-full w-5 h-5' src={doingfirst} alt="profile" />
+           <img className='' src={cardpic} alt="profile" />
         </div>
         <Messagebox card={card} />
         <Filebox file={card} />
