@@ -1,6 +1,6 @@
 import React from 'react'
 import Board from './Bodycomps/Board'
-import Heading1 from '../components/Bodycomps/Heading1'
+import Heading1 from './Bodycomps/Heading1'
 import Heading2 from './Bodycomps/Heading2'
 
 const Body = () => {
