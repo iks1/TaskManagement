@@ -1,9 +1,9 @@
 import React from "react";
-import messages from "../message.svg"
-import profile from "../profile.svg"
+import messages from "../../icons/message.svg"
+import profile from "../../icons/profile.svg"
 import task from "../../icons/task.svg"
-import home from "../home.svg"
-import settings from "../settings.svg"
+import home from "../../icons/home.svg"
+import settings from "../../icons/settings.svg"
 
 const menu = [
     { name: 'Home', icon: home },

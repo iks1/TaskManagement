@@ -9,7 +9,7 @@ const Logo = ({ handleclick, showTitle }) => {
             {
                 showTitle &&
                 <div className="flex flex-row items-center m-2 ">
-                    <img src={logo} alt="image" />
+                    <img src={logo} alt="logo" />
                     <p className="m-2">Project M</p>
                 </div>
             }

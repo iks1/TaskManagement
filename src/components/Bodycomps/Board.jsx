@@ -1,8 +1,8 @@
 import React from "react"
 import Card from "./Card"
-import { todo, doing, done } from './BoardData'
+import { todo, doing, done } from '../BoardData'
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd"
-import Head from "./cardcomponents/Head"
+import Head from "../cardcomponents/Head"
 
 const boards = [
     { 'id': '1', 'title': 'Todo', 'cards': todo,'length':todo.length,'color':'bg-[#5030E5]'},

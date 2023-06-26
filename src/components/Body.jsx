@@ -1,5 +1,5 @@
 import React from 'react'
-import Board from './Board'
+import Board from './Bodycomps/Board'
 import Heading1 from '../components/Bodycomps/Heading1'
 import Heading2 from './Bodycomps/Heading2'
 

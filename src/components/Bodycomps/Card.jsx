@@ -1,9 +1,7 @@
 import React from 'react'
-import foldericon from './file.svg'
-import messageicon from './message.svg'
-import { Draggable } from 'react-beautiful-dnd'
-import doingfirst from '../icons/doingfirst.svg'
-import cardpic from '../icons/cardpic.svg'
+import foldericon from '../../icons/file.svg'
+import messageicon from '../../icons/message.svg'
+import cardpic from '../../icons/cardpic.svg'
 
 const Card = ({ card }) => {
   return (

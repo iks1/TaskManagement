@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { addToList, addToCard } from '../store/Slice'
+import { addToList, addToCard } from '../../store/Slice'
 
 const Addnew = ({ type, parentId }) => {
     const [input, setInput] = useState('');
