@@ -9,7 +9,7 @@ import store from './store'
 function App() {
   return (
     <Provider store={store}>
-      <div className='flex flex-row App overflow-scroll'>
+       <div className='flex flex-row App overflow-scroll'>
         <Sidebar />
         <div className='flex flex-col w-full'>
           <Header />
